@@ -1,0 +1,209 @@
+/*************************************
+
+Template Name: CabHub
+Author: Mks Tamin
+NOTE: This is main stylesheet of the template.
+
+****************************************/
+
+body {
+  font-family: Lato, sans-serif;
+}
+
+/* custom bootstrap start here */
+
+.text-dark {
+  color: rgba(0, 0, 0, 0) !important;
+}
+
+.rounded-pill {
+  border-radius: 5rem !important;
+}
+
+.jumbotron {
+  padding: 2rem 2rem;
+}
+
+/* Header section start here */
+
+.navbar.navbar-light.navbar-expand-md {
+  background: rgba(255, 255, 255, 0);
+}
+
+.nav-active {
+  background: #ffc107;
+  color: #FFFF;
+  border-radius: 40px;
+  margin-right: 2px;
+}
+
+.nav-link:hover {
+  color: #FFF !important;
+  border-radius: 40px;
+  transition: all 1s;
+  background: #ffc107;
+}
+
+.img-font {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  text-align: center
+}
+
+.p-bottom {
+  padding-bottom: 28%;
+  /* padding-bottom: 30%; */
+}
+
+/* Booking section start here */
+
+.contact-form .form-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.form-control {
+  padding: 12px 0;
+  font-size: 16px;
+  height: auto;
+  box-shadow: none !important;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #666;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.form-control:focus {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+textarea.form-control {
+  resize: vertical;
+  height: 130px;
+}
+
+.card-footer:last-child {
+  padding-top: 0;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.card-footer {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.card {
+  background-color: #f5f4f2;
+  border: none;
+  border-radius: 0;
+}
+
+/* Tariffs start here */
+
+.position-tariffs-img {
+  margin-top: -45%;
+}
+
+.tariffs-info {
+  transition: all 1s ease-in-out
+}
+
+.tariffs-info:hover {
+  background: #ffc107 !important;
+  transition: all 1s ease-in-out;
+}
+
+.tariffs-info:hover .h-text-colour {
+  color: #000000 !important;
+  transition: all 1s ease-in-out
+}
+
+.tariffs-info:hover .h-button {
+  background: #000000 !important;
+  color: #f5f4f2;
+  transition: all 1s ease-in-out
+}
+
+.btn-dark, .bg-dark {
+  background-color: rgba(0, 0, 0, .9) !important;
+}
+
+/* Best wish start here */
+
+.we-do-best-icon {
+  margin-top: 5px;
+  width: 80px;
+  margin-right: 5%;
+  height: 80px;
+  font-size: 30px;
+}
+
+/* Download app section start here */
+
+#app-store .img-fluid {
+  height: auto;
+  max-width: 100%;
+  margin-right: 10%;
+}
+
+/* media query start here */
+
+@media (min-width: 992px) {
+  .p-for-large {
+    padding-top: 11% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-link {
+    text-align: center;
+  }
+  .nav-active {
+    background: none;
+  }
+  .img-font {
+    display: none;
+  }
+  .p-bottom {
+    padding-top: 5%;
+    padding-bottom: 15%;
+  }
+  .d-none-for-responsive {
+    display: none !important;
+  }
+}
+
+@media (min-width: 300px) {
+  #app-store .img-fluid {
+    max-width: 45%;
+    height: auto;
+    margin-right: 5%;
+  }
+  .we-do-best-icon {
+    float: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .tariffs-card {
+    margin-bottom: 30% !important;
+  }
+  .position-tariffs-img {
+    margin-top: -35%;
+  }
+}
+
+@media (min-width: 768px) {
+  #app-store .img-fluid {
+    height: auto;
+    margin-right: 5%;
+  }
+  .d-none {
+    display: block !important;
+  }
+}
